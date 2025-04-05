@@ -1,0 +1,22 @@
+section .elemento1,
+section .elemento2,
+section .elemento3{
+    color: red;
+}
+
+section :is(.elemento1, .elemento2, .elemento3){
+    color: rgb(93, 224, 99);
+}
+
+section :where{
+    color: rgb(55, 38, 211);
+}
+
+section:has(.elemento1){
+    background-color: rgb(238, 36, 9);
+}
+
+ul:has(+div){ /*Esto es para modificcar el ul solo si existe un div despues de el, si el div desaparece el estilo de ul igual*/
+    background-color: black;
+    color: aliceblue;
+}

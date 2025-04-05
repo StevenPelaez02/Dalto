@@ -1,0 +1,29 @@
+body{
+    color: blue;
+}
+
+div{
+    color: brown;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+h1{
+    color: inherit; /*hereda el color de la caja padre*/
+    width: inherit;
+}
+
+h1{
+    color: initial; /*no hereda el color de la caja padre*/
+    font-family: initial;
+}
+
+h1{
+    color: unset; /*si el valor por defecto era inherit lo vuelve a inherit, pero si por defecto era otro lo deja en initial*/
+    font-family: initial;
+}
+
+h1{
+    color: revert; /**/
+    font-family: initial;
+}

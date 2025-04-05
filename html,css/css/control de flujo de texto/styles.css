@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #bbb;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    margin: auto; 
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #0006;
+    /* white-space: normal; normal automaticos */
+    white-space: nowrap; /*tira todo en una sola linea*/
+    /* white-space: pre-wrap; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+h1{
+    text-wrap: pretty;
+}

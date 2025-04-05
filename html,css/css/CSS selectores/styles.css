@@ -1,0 +1,45 @@
+/*selector de atributo*/
+
+li{
+    color: gray;
+}
+.ingrediente-faltante{
+    color: red;
+}
+
+#ingrediente-secreto{
+    color: blue;
+}
+
+img[src$="jpeg"]{ /*src$ == a elegir todos los archivos que terminen con jpeg*/
+    width: 40%;
+}
+
+img[src^="../img/imagen"]{ /*src^ == a elegir todos los archivos que arrancan con jpeg*/
+    width: 100%;
+}
+
+/* seleccion descendiente*/
+ul li {
+    color: #666;
+}
+
+/*de esta forma debe ser un hijo directo, no puede ser un nieto o demas*/
+ul > strong{
+    color: red;
+}
+
+/*SELECTOR DE HERMANO ADYACENTE*/
+h1 + p + p{
+    color: blue;
+}
+
+/*selector de hermanos generales*/
+h1 ~ p {
+    color: aqua;
+}
+
+h1, p{
+    color: brown;
+    
+}

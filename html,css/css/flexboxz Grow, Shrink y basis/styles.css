@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    margin: 20px;
+    /*align-content: star; /*Funciona en el cross axis*/
+    align-items: center; /*cross axis*/
+    justify-content: space-between; /*main axis
+    background-color: bisque;
+    border: 1px solid #000;
+    /* gap: 30px; */
+    /* padding: 10px; */
+    height: 300px;
+}
+
+.flex-item{
+    background-color: #911;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    /* direction: rtl; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 100px; */
+    flex: 1 1 100px;
+    /* align-self: flex-start ; */
+}
+
+.item-5{
+    align-self: stretch;
+    border: 1px solid #000;
+}
+
+.flex-item:nth-child(2n){
+    background-color: #f77;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    align-self: stretch ;
+}

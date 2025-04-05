@@ -1,0 +1,41 @@
+div{
+    padding: 20px;
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 3em;
+    letter-spacing: -9px;
+}
+
+div::first-line{
+    color: red;
+    font-weight: bold;
+}
+
+div::selection{
+    background-color: red;
+    color: white;
+}
+
+input::placeholder{
+    color: green;
+    background-color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+
+li::marker{
+    color: rgb(12, 70, 7);
+}
+
+li::before{
+    content: 'Elemento: ';
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li::after{
+    content: '  Despues...';
+    color: red;
+}

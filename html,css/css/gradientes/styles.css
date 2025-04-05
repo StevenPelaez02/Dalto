@@ -1,0 +1,47 @@
+body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(transparent, #000, #444, #f00);
+    margin: 0%; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    background: radial-gradient(green, #000a);
+    margin: 0%; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+}
+
+.box3{
+    width: 300px;
+    height: 400px;
+    
+    background: conic-gradient(green, #000a);
+    margin: 0%; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}

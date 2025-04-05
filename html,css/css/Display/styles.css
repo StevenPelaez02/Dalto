@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div{
+    padding: 20px;
+    background-color: #999;
+}
+
+.a{
+    background-color: red;
+    color: white;
+    display: block; /*lo que le decimos es que pase de trabajar como un elemento en linea a un elemento en bbloque y ocupe todo el espacio */
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.div{
+    background-color: blueviolet;
+}
+
+.p{
+    background-color: black;
+    color: #fff;
+    display: inline;
+    margin: 5px;
+    padding: 20px; /*margin y padding solo funcionan de manera horizontal para los elemetos en linea*/
+}
+
+.nav{
+    background-color: #48e;
+}
+
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item{
+    display: inline-block;  /*podemos trabajar con elementos en bloque pero unidos*/
+    padding: 10px;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+
+}
+
+.nav__link:hover{
+    background-color: #59e;
+}
+
+.link--button{
+    border: 1px solid#fff;
+    background-color: #fff;
+    padding: 6px 18px;
+    color: #48e ;
+    border-radius: 3px;
+    margin-left: 60px;
+    /* display: none; */
+}
+
+.link--button:hover{
+    background-color: transparent;
+    color: #fff;
+}

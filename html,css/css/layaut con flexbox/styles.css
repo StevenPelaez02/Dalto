@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f80;
+    color: white;
+}
+
+/*HEADER SECTION*/
+
+.header{
+    width: 100svw;
+    min-height: 64svh;
+    display: flex;
+    background: url("https://static.hosteltur.com/app/public/uploads/img/articles/2024/10/02/L_175055_la-convencion-de-turespana-convierte-a-tenerife-en-el-centro-del-debate.jpg") center / cover;
+}
+
+.header__overlay{
+    min-height: 64svh;
+    width: 100%;
+    background-color: #f809;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__item-container{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.header__item-container p{
+    text-wrap: pretty;
+    margin-top: 10px;
+}
+
+.header__img{
+    min-width: 200px;
+    max-width: 40%;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin: 20px;
+}
+
+h1{
+    margin: 0%;
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+
+/*NAVBAR SECTION*/
+
+.nav{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 25px 2px #b60;
+}
+
+.nav__ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.nav__items{
+    list-style: none;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: flex-start;
+}
+
+.nav__link{
+    color: #f80;
+    text-decoration: none;
+    display: inline-block;
+    transition: border 0.3s, border-radius 0.5s, color 0.5s, outline 0.3s, outline-offset 0.3s;
+    outline: 0;
+    outline-offset: -8px;
+    padding: 8px 20px;
+}
+
+.nav__items :hover{
+    background-color: #f803;
+    border-radius: 20px;
+    outline: 2px solid #f803;
+}
+
+.link--login{
+    background-color: #f80;
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 1px;
+}
+
+.link--login:hover{
+    background-color: #b60;
+    outline: none;
+}
+
+.nav__logo{
+    width: 60px;
+}
+
+.nav__logo-container{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav__ul-container{
+    flex-grow: 4;
+    text-align: center;
+}
+
+/*MAIN SECTION*/
+
+main{
+    max-width: 800px;
+    margin: auto;
+    text-wrap: pretty;
+}

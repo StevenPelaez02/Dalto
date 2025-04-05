@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    margin: 20px;
+    /* height: 100px; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    border: 1px solid #000;
+    
+}
+
+.flex-item{
+    
+    width: 100px;
+    /* height: 50px; */
+    background-color: #911;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    direction: ltr;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+}
