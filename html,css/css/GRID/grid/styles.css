@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* GRID */
+
+/* .grid{
+    background: #ccc;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 1fr 300px 150px;
+}
+
+.grid-items{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+} */
+
+/* REPEAT & MIN-MAX */
+
+.grid{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr 2fr);*/
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.grid-items{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    background-color: #48e;
+}
+
+.box{
+    margin: auto;
+    padding: 20px 50px;
+    border: 4px solid #000;
+    width: fit-content;
+    transform: skew(20deg);
+}
+
+.box:first-child{
+    transform: rotate(20deg);
+}
+
+img{
+    
+}

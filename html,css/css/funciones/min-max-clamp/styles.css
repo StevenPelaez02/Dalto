@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    background-color: #48e;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    margin: 120px auto;
+    font-size: 40px;
+    padding: 0 40px;
+    width: min(600px, 800px);
+    width: max(1800px, 100%);
+    width: clamp(900px, 100%, 1400px);
+}
+
+h1{
+    font-size: 2.2em;
+    margin-bottom: 0;
+}

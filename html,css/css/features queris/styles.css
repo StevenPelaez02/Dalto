@@ -1,0 +1,29 @@
+/* body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@supports (color: oklch(30% 0.2 30)){
+    body{
+        color: oklch(80% 0.2 30);
+    }
+} */
+
+/*  CONTAINER QUERYS    */
+
+.container{
+    container-type: inline-size;
+    container-name: main;
+}
+
+p{
+    font-size: 8px;
+}
+
+@container main (max-width: 600px){
+    p{
+        font-size: 20px;
+        color: red;
+        background-color: black;
+    }
+}

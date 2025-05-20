@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-.flexbox{
+/* responsive */
+
+/* .flexbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,3 +25,24 @@
     padding: 10px;
     margin: 4px;
 }
+ //img - video
+img{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    background: red;
+    display: block;
+}
+
+.container{
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+video{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+} */
+
+/* srcset y sizes */

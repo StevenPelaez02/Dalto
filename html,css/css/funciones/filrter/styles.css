@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.box{
+    background: #48e;
+    margin: auto;
+    padding: 20px 50px;
+    filter: blur(0px);
+    filter: brightness(1);
+    filter: contrast(1);
+    filter: grayscale(0);
+    filter: saturate(1);
+    filter: hue-rotate(50deg); 
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
